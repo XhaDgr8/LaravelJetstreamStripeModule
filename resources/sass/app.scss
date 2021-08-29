@@ -1,0 +1,18 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer components {
+    .input-group
+    {
+        label {
+            @apply block text-sm text-gray-500;
+        }
+        input {
+            @apply w-full px-5 py-1 text-gray-700 bg-gray-200 rounded border-0 shadow-inner;
+        }
+        p {
+            @apply text-red-500 mt-1
+        }
+    }
+}
